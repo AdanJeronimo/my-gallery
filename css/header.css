@@ -1,0 +1,26 @@
+.header{
+    text-align: center;
+    margin-top: 4rem;  
+}
+.header__imagen{
+    height: 15rem; /*o width*/
+    border-radius: 2rem;
+}
+.header__titulo{
+    color: #4E5150;
+}
+.header__detalle{
+    color: #A9A9A9;
+}
+
+@media all and (max-width:640px){
+    .header__imagen{
+        height: 12rem;
+    }
+}
+@media all and (max-width:340px){
+    .header__imagen{
+        height: 10rem;
+    }
+    
+}

@@ -1,11 +1,20 @@
+:root{
+    --gris-obscuro:#4E5150;
+    --gris-claro:#BDBDBD;
+}
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
 html {
-    font-size: 62.5%;  /* 1rem => 10px*/
+    font-size: 62.5%;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--baseFontFamily);
 }
 body {
     margin: 0;
     padding: 0;
-    box-sizing: inherit; /*heredado*/
-    font-family: inherit;/*heredado*/
+    box-sizing: inherit;
 }

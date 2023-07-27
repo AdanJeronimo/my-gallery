@@ -7,10 +7,16 @@
     border-radius: 2rem;
 }
 .header__titulo{
-    color: #4E5150;
+    color:var(--gris-obscuro);
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin: 1.6rem 0 0.8rem 0;
 }
 .header__detalle{
     color: #A9A9A9;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
 }
 
 @media all and (max-width:640px){

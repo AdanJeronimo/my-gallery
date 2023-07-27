@@ -1,6 +1,7 @@
 .nav-calificaciones{
     display: flex;
     justify-content: center;
+    gap: 2.4rem;
 }
 .nav-calificaciones__enlace{
     background-color:#E5E5E5;
@@ -8,20 +9,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 3rem; /*verifica si se puued quiitar parra que se aguste el contenido automatiico*/
-    padding:1rem 2rem; /*vverrifiar porque marrgin y aparte el padding*/
-    margin:1rem 1.5rem;
+    max-width: 8rem; 
+    padding:1rem 2rem;
+    
     border-radius: 0.5rem;
     text-decoration: none;
 }
 .nav-calificaciones__titulo{
     margin: 0;
-    color: #4E5150; 
+    color: var(--gris-obscuro); 
+    font-weight: 600;
+    font-size: 1.8rem;
 }
 
 .nav-calificaciones__detalle{
     margin: 0;
-    color: #BDBDBD; 
+    color: var(--gris-claro);
+    font-weight: 600;
+    font-size: 1.4rem;
+
 }
 
 @media all and (max-width:340px){
@@ -29,5 +35,9 @@
     padding:1rem 2rem;
     margin:1rem 1rem;
     border-radius: 0.5rem;
+    }
+    .nav-calificaciones{
+        gap: 1.2rem;
+
     }
 }

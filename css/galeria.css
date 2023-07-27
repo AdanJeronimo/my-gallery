@@ -4,6 +4,7 @@
     grid-template-rows: repeat(3, 1fr);
     margin: 3rem 24rem 7rem 24rem; /*verificar y acomdar el griid template*/
     gap: 2rem;
+    margin-top: 6.4rem;
 }
 
 .galeria__contenedor{

@@ -1,5 +1,9 @@
 .footer{
     text-align: center;
-    color: #B9BDCF;
-    margin-bottom: 2rem;
+    color: var(--gris-claro);
+    margin-bottom: 2.4rem;
+}
+.footer__derechos-de-autor{
+    font-weight: 700;
+    font-size: 1.4rem;
 }
